@@ -11,7 +11,7 @@ import logging
 # log_file = os.path.join("project.log", "Logs") # where and which file
 
 logging.basicConfig(
-    filename = "Logs/project.log",
+    filename = "Logs/project.log",  # this is where the file is.
     filemode= "a",
     level = logging.INFO,
     format='[%(asctime)s] %(levelname)s: %(message)s',
