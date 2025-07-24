@@ -6,6 +6,12 @@ __pycache__/
 # C extensions
 *.so
 
+
+# venv
+
+NLP_yt/  
+# not the folder, but everything inside it. It means not a file, but a folder with everything inside it.
+
 # Distribution / packaging
 .Python
 build/
