@@ -10,13 +10,13 @@ import logging
 
 # log_file = os.path.join("project.log", "Logs") # where and which file
 
-logging.basicConfig(
-    filename = "Logs/project.log",  # this is where the file is.
-    filemode= "a",
-    level = logging.INFO,
-    format='[%(asctime)s] %(levelname)s: %(message)s',
-    datefmt='%Y-%m-%d %H:%M:%S'
-)
+# logging.basicConfig(
+#     filename = "Logs/project.log",  # this is where the file is.
+#     filemode= "a",
+#     level = logging.INFO,
+#     format='[%(asctime)s] %(levelname)s: %(message)s',
+#     datefmt='%Y-%m-%d %H:%M:%S'
+# )
 
 
 project_name = "NLP_yt_proj"
