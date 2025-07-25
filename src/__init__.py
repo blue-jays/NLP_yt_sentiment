@@ -22,4 +22,14 @@ logging.basicConfig(
         ]      
 )
 
-logger = logging.getLogger("NLP_logger")
+NLog = logging.getLogger("NLP_logger")
+# creating a logger, named (NLP_logger), that will appear on the logs.
+# NLog is just the object we use to call the logger.
+
+
+### what are we doing here
+"""
+Here we are making a custom logger, that is in the src init file. 
+So that we can import it anywhere.
+
+"""
